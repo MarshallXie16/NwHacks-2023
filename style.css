@@ -1,0 +1,113 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    background-color: #94B49F;
+}
+
+.CalendarContainer{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    background-color: #FCF8E8;
+}
+
+
+li{
+    list-style: none;
+}
+
+.WeekDayContainer{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-end;
+
+}
+
+.WeekDayContainer * {
+    text-align: center;
+    margin: auto;
+    padding: 3vmin;
+    display: inline-block;
+
+}
+.w1{
+    display: flex;
+    justify-content: space-around;
+
+}
+.MonthContainer{
+    background-color:#76549A;
+    text-align: center;
+    color: #FCF8E8;
+}
+.w1 * {
+    flex:1;
+    padding: 20px;;
+    margin: 0;
+
+    text-align: center;
+}
+
+
+.w2{
+    display: flex;
+}
+
+.w2 {
+    flex:1;
+    padding: 20px;;
+    margin: 0;
+    text-align: center;
+
+}
+
+
+.w3{
+    display: flex;
+}
+
+.w3 * {
+    flex:1;
+    padding: 20px;;
+    margin: 0;
+    text-align: center;
+
+}
+
+.w4{
+    display: flex;
+}
+
+.w4 * {
+    flex:1;
+    padding: 20px;;
+    margin: 0;
+    text-align: center;
+
+}
+
+.w5{
+    display: flex;
+}
+
+.w5 div{
+    flex:1;
+    padding: 20px;
+    margin: 0;
+    text-align: center;
+
+}
+
+.empty{
+    flex:4;
+}
+
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    background-color: yellow;
+  }
